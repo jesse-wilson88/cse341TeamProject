@@ -40,10 +40,10 @@
                 "author": {
                   "example": "any"
                 },
-                "genre": {
+                "publicationDate": {
                   "example": "any"
                 },
-                "summary": {
+                "format": {
                   "example": "any"
                 }
               }
@@ -101,10 +101,10 @@
                 "author": {
                   "example": "any"
                 },
-                "genre": {
+                "publicationDate": {
                   "example": "any"
                 },
-                "summary": {
+                "format": {
                   "example": "any"
                 }
               }
@@ -165,13 +165,16 @@
                 "title": {
                   "example": "any"
                 },
-                "author": {
+                "format": {
                   "example": "any"
                 },
-                "genre": {
+                "rating": {
                   "example": "any"
                 },
-                "summary": {
+                "releaseDate": {
+                  "example": "any"
+                },
+                "duration": {
                   "example": "any"
                 }
               }
@@ -226,13 +229,16 @@
                 "title": {
                   "example": "any"
                 },
-                "author": {
+                "format": {
                   "example": "any"
                 },
-                "genre": {
+                "rating": {
                   "example": "any"
                 },
-                "summary": {
+                "releaseDate": {
+                  "example": "any"
+                },
+                "duration": {
                   "example": "any"
                 }
               }
@@ -293,13 +299,16 @@
                 "title": {
                   "example": "any"
                 },
-                "author": {
+                "developer": {
                   "example": "any"
                 },
-                "genre": {
+                "publisher": {
                   "example": "any"
                 },
-                "summary": {
+                "releaseDate": {
+                  "example": "any"
+                },
+                "platform": {
                   "example": "any"
                 }
               }
@@ -354,13 +363,16 @@
                 "title": {
                   "example": "any"
                 },
-                "author": {
+                "developer": {
                   "example": "any"
                 },
-                "genre": {
+                "publisher": {
                   "example": "any"
                 },
-                "summary": {
+                "releaseDate": {
+                  "example": "any"
+                },
+                "platform": {
                   "example": "any"
                 }
               }
@@ -418,16 +430,22 @@
             "schema": {
               "type": "object",
               "properties": {
-                "title": {
+                "artist": {
                   "example": "any"
                 },
-                "author": {
+                "album": {
+                  "example": "any"
+                },
+                "label": {
                   "example": "any"
                 },
                 "genre": {
                   "example": "any"
                 },
-                "summary": {
+                "releaseDate": {
+                  "example": "any"
+                },
+                "format": {
                   "example": "any"
                 }
               }
@@ -479,16 +497,22 @@
             "schema": {
               "type": "object",
               "properties": {
-                "title": {
+                "artist": {
                   "example": "any"
                 },
-                "author": {
+                "album": {
+                  "example": "any"
+                },
+                "label": {
                   "example": "any"
                 },
                 "genre": {
                   "example": "any"
                 },
-                "summary": {
+                "releaseDate": {
+                  "example": "any"
+                },
+                "format": {
                   "example": "any"
                 }
               }
