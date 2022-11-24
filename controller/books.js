@@ -29,7 +29,7 @@ const addBook = async (req, res) => {
   const book = {
     title: req.body.title,
     author: req.body.author,
-    publicationDate: req.body.publicationDate,
+    yearPublished: req.body.yearPublished,
     format: req.body.format,
   };
   const response = await mongodb
@@ -52,7 +52,7 @@ const updateBook = async (req, res) => {
   const book = {
     title: req.body.title,
     author: req.body.author,
-    publicationDate: req.body.publicationDate,
+    yearPublished: req.body.yearPublished,
     format: req.body.format,
   };
   const response = await mongodb

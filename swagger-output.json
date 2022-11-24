@@ -311,6 +311,9 @@
                 "releaseDate": {
                   "example": "any"
                 },
+                "artwork": {
+                  "example": "any"
+                },
                 "format": {
                   "example": "any"
                 }

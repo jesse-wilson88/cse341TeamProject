@@ -32,7 +32,7 @@ const addMusic = async (req, res) => {
     label: req.body.label,
     genre: req.body.genre,
     releaseDate: req.body.releaseDate,
-    artwork: req.body.artist,
+    numSongs: req.body.totalSongs,
     format: req.body.format,
   };
   const response = await mongodb
@@ -58,7 +58,7 @@ const updateMusic = async (req, res) => {
     label: req.body.label,
     genre: req.body.genre,
     releaseDate: req.body.releaseDate,
-    artwork: req.body.artist,
+    numSongs: req.body.totalSongs,
     format: req.body.format,
   };
   const response = await mongodb
