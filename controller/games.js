@@ -28,9 +28,10 @@ const addGame = async (req, res) => {
   // console.log("Add music to inventory");
   const game = {
     title: req.body.title,
-    author: req.body.author,
-    genre: req.body.genre,
-    summary: req.body.summary,
+    developer: req.body.developer,
+    publisher: req.body.publisher,
+    releaseDate: req.body.releaseDate,
+    platform: req.body.platform,
   };
   const response = await mongodb
     .getDb()
@@ -51,9 +52,10 @@ const updateGame = async (req, res) => {
   const gameId = new ObjectId(req.params.id);
   const game = {
     title: req.body.title,
-    author: req.body.author,
-    genre: req.body.genre,
-    summary: req.body.summary,
+    developer: req.body.developer,
+    publisher: req.body.publisher,
+    releaseDate: req.body.releaseDate,
+    platform: req.body.platform,
   };
   const response = await mongodb
     .getDb()

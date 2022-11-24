@@ -27,10 +27,13 @@ const getMusicById = async (req, res) => {
 const addMusic = async (req, res) => {
   // console.log("Add music to inventory");
   const music = {
-    title: req.body.title,
-    author: req.body.author,
+    artist: req.body.artist,
+    album: req.body.album,
+    label: req.body.label,
     genre: req.body.genre,
-    summary: req.body.summary,
+    releaseDate: req.body.releaseDate,
+    artwork: req.body.artist,
+    format: req.body.format,
   };
   const response = await mongodb
     .getDb()
@@ -50,10 +53,13 @@ const updateMusic = async (req, res) => {
   // console.log("Update music information by ID");
   const musicId = new ObjectId(req.params.id);
   const music = {
-    title: req.body.title,
-    author: req.body.author,
+    artist: req.body.artist,
+    album: req.body.album,
+    label: req.body.label,
     genre: req.body.genre,
-    summary: req.body.summary,
+    releaseDate: req.body.releaseDate,
+    artwork: req.body.artist,
+    format: req.body.format,
   };
   const response = await mongodb
     .getDb()

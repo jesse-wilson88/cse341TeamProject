@@ -28,12 +28,10 @@ const addMovie = async (req, res) => {
   // console.log("Add movie to inventory");
   const movie = {
     title: req.body.title,
-    director: req.body.author,
-    studio: req.body.genre,
-    genre: req.body.summary,
+    format: req.body.format,
+    rating: req.body.rating,
     releaseDate: req.body.releaseDate,
-    actor: req.body.actor,
-    plot: req.body.plot,
+    duration: req.body.duration,
   };
   const response = await mongodb
     .getDb()
@@ -54,12 +52,10 @@ const updateMovie = async (req, res) => {
   const movieId = new ObjectId(req.params.id);
   const movie = {
     title: req.body.title,
-    director: req.body.author,
-    studio: req.body.genre,
-    genre: req.body.summary,
+    format: req.body.format,
+    rating: req.body.rating,
     releaseDate: req.body.releaseDate,
-    actor: req.body.actor,
-    plot: req.body.plot,
+    duration: req.body.duration,
   };
   const response = await mongodb
     .getDb()

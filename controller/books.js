@@ -30,8 +30,8 @@ const addBook = async (req, res) => {
   const book = {
     title: req.body.title,
     author: req.body.author,
-    genre: req.body.genre,
-    summary: req.body.summary,
+    publicationDate: req.body.publicationDate,
+    format: req.body.format,
   };
   const response = await mongodb
     .getDb()
@@ -53,8 +53,8 @@ const updateBook = async (req, res) => {
   const book = {
     title: req.body.title,
     author: req.body.author,
-    genre: req.body.genre,
-    summary: req.body.summary,
+    publicationDate: req.body.publicationDate,
+    format: req.body.format,
   };
   const response = await mongodb
     .getDb()
