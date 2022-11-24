@@ -296,19 +296,22 @@
             "schema": {
               "type": "object",
               "properties": {
-                "title": {
+                "artist": {
                   "example": "any"
                 },
-                "developer": {
+                "album": {
                   "example": "any"
                 },
-                "publisher": {
+                "label": {
+                  "example": "any"
+                },
+                "genre": {
                   "example": "any"
                 },
                 "releaseDate": {
                   "example": "any"
                 },
-                "platform": {
+                "format": {
                   "example": "any"
                 }
               }
@@ -360,19 +363,22 @@
             "schema": {
               "type": "object",
               "properties": {
-                "title": {
+                "artist": {
                   "example": "any"
                 },
-                "developer": {
+                "album": {
                   "example": "any"
                 },
-                "publisher": {
+                "label": {
+                  "example": "any"
+                },
+                "genre": {
                   "example": "any"
                 },
                 "releaseDate": {
                   "example": "any"
                 },
-                "platform": {
+                "format": {
                   "example": "any"
                 }
               }
@@ -430,22 +436,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "artist": {
+                "title": {
                   "example": "any"
                 },
-                "album": {
+                "developer": {
                   "example": "any"
                 },
-                "label": {
-                  "example": "any"
-                },
-                "genre": {
+                "publisher": {
                   "example": "any"
                 },
                 "releaseDate": {
                   "example": "any"
                 },
-                "format": {
+                "platform": {
                   "example": "any"
                 }
               }
@@ -497,22 +500,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "artist": {
+                "title": {
                   "example": "any"
                 },
-                "album": {
+                "developer": {
                   "example": "any"
                 },
-                "label": {
-                  "example": "any"
-                },
-                "genre": {
+                "publisher": {
                   "example": "any"
                 },
                 "releaseDate": {
                   "example": "any"
                 },
-                "format": {
+                "platform": {
                   "example": "any"
                 }
               }
